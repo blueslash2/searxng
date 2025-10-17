@@ -3,6 +3,15 @@
   
 BochaAI is a web search API that provides comprehensive search results.  
 API documentation: https://open.bochaai.com  
+
+suggest config in settings.xml:
+- name: bochaai  
+  engine: bochaai  
+  shortcut: bca  
+  api_key: 'sk-your-api-key-here'  # 替换为您的API密钥  
+  disabled: false  
+  categories: general
+  
 """  
   
 from json import dumps  
